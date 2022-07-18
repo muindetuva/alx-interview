@@ -9,7 +9,7 @@ def pascal_triangle(n):
     Returns a list of lists representing the pascal triangle of n
     '''
     if n == 0:
-        return []
+        return [[]]
 
     res = [[1]]
 
